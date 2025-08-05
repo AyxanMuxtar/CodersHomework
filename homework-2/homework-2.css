@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:  "Playfair Display";
+    font-size: large;
+}
+
+.navbar-brand{
+    border-color: aqua;
+    border-radius: 1px;
+    color: brown;
+}
+ 
+      body {
+        background-image: url(background.webp);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex: 1;
+      }
+      footer {
+        margin-top: auto;
+      }
+ 
