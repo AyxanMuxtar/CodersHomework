@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+@media screen and (max-width: 768px) {
+    .login__page {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left__side, .right__side {
+        width: 100%;
+    }
+    .right__side {
+        padding: 20px;
+    }
+    
+}
+body {
+    background-color: #191A1C;
+    color: white;
+    padding: 30px;
+}
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.or-divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.or-divider span {
+  padding: 0 10px;
+  color: #888;
+  font-weight: bold;
+
+}
+a {
+    color: #6375FF;
+    cursor: pointer;
+}
+
+.login__page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 40px; */
+}
+
+.left__side {
+    width: 50%;
+}
+
+.left__side img {
+    width: 100%;
+    object-fit: cover;
+    height: calc(100vh - 60px);
+}
+
+.right__side {
+    padding: 0px 108px;
+}
+
+.right__side__logo {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.right__side__desc h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom:16px;
+}
+
+.right__side__desc p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+#gmail__btn,
+#register {
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: white;
+    margin: 20px 0px;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+#gmail__btn {
+    background: var(--Main-Dark_200, #2D2E30);
+}
+
+#register {
+    background: var(--Main-Dark_200, #5367FE);
+
+}
+
+.right__side span {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: transparent;
+    color: white;
+    margin: 10px 0px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
