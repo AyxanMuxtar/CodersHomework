@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Paintings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Explore Famous Paintings</h1>
+  </header>
+
+  <!-- Filters -->
+  <div class="filters">
+    <select id="authorFilter">
+      <option value="">All Authors</option>
+    </select>
+    <select id="genreFilter">
+      <option value="">All Genres</option>
+    </select>
+    <select id="museumFilter">
+      <option value="">All Museums</option>
+    </select>
+  </div>
+
+  <!-- Painting Container -->
+  <div id="paintingContainer"></div>
+
+  <!-- Fixed Add Painting Button -->
+  <div id="fixedAddPaintingBtn">
+    <button id="showFormBtn">➕ Add New Painting</button>
+  </div>
+
+  <!-- Add Painting Form -->
+  <div id="newPaintingForm" style="display:none;">
+    <h3>Add New Painting</h3>
+    <input type="text" id="newTitle" placeholder="Title" required>
+    <input type="text" id="newAuthor" placeholder="Author" required>
+    <input type="text" id="newGenre" placeholder="Genre" required>
+    <input type="text" id="newMuseum" placeholder="Museum" required>
+    <input type="text" id="newImage" placeholder="Image URL" required>
+    <textarea id="newDescription" placeholder="Description" required></textarea>
+    <button id="addPaintingBtn">Add Painting</button>
+    <button id="cancelPaintingBtn">Cancel</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+  [
+  {
+    "id": 1,
+    "title": "Christ Among the Doctors",
+    "author": "Ablrecht Dürer",
+    "genre":"Northern Renaissance",
+    "museum":"Thyssen-Bornemisza Museum",
+    "description":"Northern Renaissance painting showing the twelve-year-old Christ in the Temple, debating with learned scholars",
+    "image": "https://tse1.explicit.bing.net/th/id/OIP.zz6ufpvlgmQs5CdCA5lMZQHaGL?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 2,
+    "title": "The Virgin of the Rocks",
+    "author": "Leonardo da Vinci",
+    "genre":"High Renaissance",
+    "museum":"National Gallery, London",
+    "description":"This painting, created in two versions, showcases the Virgin Mary with the infant Jesus and John the Baptist in a rocky landscape, demonstrating da Vinci's mastery of light and shadow.",
+    "image": "https://th.bing.com/th/id/R.eb78e58302d9585ffc6d5842e12edb07?rik=XKFBbaQ3ROBzMw&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 3,
+    "title": "The School of Athens",
+    "author": "Raphael",
+    "genre":"High Renaissance",
+    "museum":"Vatican Museums",
+    "description":"A masterpiece of Renaissance art, this fresco depicts an idealized gathering of the greatest philosophers and scientists of the classical world, including Plato and Aristotle at its center.",
+    "image": "https://th.bing.com/th/id/R.3d017d01b12a6d6add6ca5b410ff5495?rik=FjwigBv%2b9aR06Q&riu=http%3a%2f%2fuploads5.wikiart.org%2fimages%2fraphael%2fschool-of-athens-detail-from-right-hand-side-showing-diogenes-on-the-steps-and-euclid-1511.jpg&ehk=P7gx5tIE2y51T7JgPzhFlZ8ku47emIzNWiWhCxUToug%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 4,
+    "title": "The Birth of Venus",
+    "author": "Sandro Botticelli",
+    "genre":"Early Renaissance",
+    "museum":"Uffizi Gallery, Florence",
+    "description":"This iconic painting depicts the goddess Venus emerging from the sea on a shell, symbolizing beauty and love, surrounded by mythological figures.",  
+    "image": "https://i.pinimg.com/736x/41/93/43/4193431dabaf7efb5c410fe968c29d73.jpg"
+  },
+      {
+    "id": 5,
+    "title": "Daniel in the Lion's Den",
+    "author": "Briton Rivière",
+    "genre":"Victorian realism",
+    "museum":"Walker Art Gallery, Liverpool",
+    "description":"A dramatic depiction of the biblical story of Daniel, showing him calmly facing a den of lions, symbolizing faith and courage.",
+    "image": "https://i.pinimg.com/736x/eb/37/d2/eb37d2be16983e55e64a060f61bb6bfb.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Garden of Earthly Delights",
+    "author": "Hieronymus Bosch",
+    "genre":"Northern Renaissance",
+    "museum":"Museo del Prado, Madrid",
+    "description": "A triptych painting that explores the themes of paradise, earthly pleasures, and hell, filled with intricate details and fantastical imagery.",
+    "image": "https://i.pinimg.com/736x/48/a5/6f/48a56f94616d47160e4d4fdc1d1b6bd7.jpg"
+  },
+  {
+    "id": 7,
+    "title":"The Milkmaid",
+    "author": "Johannes Vermeer",
+    "genre":"Dutch Golden Age",
+    "museum":"Rijksmuseum, Amsterdam",
+    "description":"A serene depiction of a young maid pouring milk, showcasing Vermeer's mastery of light and texture, and his ability to capture everyday life.",
+    "image":"https://i.pinimg.com/736x/ef/be/e0/efbee0d4fb91f30d703881e58f548b79.jpg"
+  },
+  {
+    "id": 8,
+    "title":"Moses Smashing the Tablets of the Law", 
+    "author": "Rembrandt van Rijn",
+    "genre": "Dutch Golden Age",
+    "museum":"Staatliche Museen, Berlin",
+    "description": "A powerful depiction of the biblical moment when Moses, in anger, smashes the tablets containing the Ten Commandments, showcasing Rembrandt's dramatic use of light and shadow.",
+    "image": "https://i.pinimg.com/1200x/98/c4/90/98c4900ed55a4b04bd8f16972ba89031.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Judith Beheading Holofernes",
+    "author": "Caravaggio",
+    "genre": "Baroque",
+    "museum":"galleria Nazionale d'Arte Antica, Rome",
+    "description": "A dramatic and intense Baroque painting depicting the biblical story of Judith beheading the Assyrian general Holofernes, showcasing Caravaggio's mastery of chiaroscuro.",
+    "image":"https://i.pinimg.com/1200x/39/ca/9d/39ca9da768f68e861c12c9cebde82d88.jpg" 
+  },
+  {
+    "id": 10,
+    "title": "Las Meninas",
+    "author": "Diego Velázquez",
+    "genre": "Baroque",
+    "museum":"Museo del Prado, Madrid",
+    "description": "A complex and enigmatic Baroque painting that captures a moment in the royal palace, featuring the Infanta Margaret Theresa surrounded by her entourage, with Velázquez himself included in the scene.",
+    "image":"https://i.pinimg.com/736x/a5/a3/8e/a5a38ea7234d4733c7046b955d70406b.jpg" 
+  },
+  {
+    "id": 11,
+    "title": "The Fall of the Damned",
+    "author": "Peter Paul Rubens",
+    "genre": "Baroque",
+    "museum":"Alto Pinakothek, Munich",
+    "description": "A dramatic Baroque painting depicting the chaotic and tumultuous scene of the damned being cast into hell, showcasing Rubens' dynamic composition and vivid colors.",
+    "image": "https://i.pinimg.com/1200x/89/24/89/8924897cabe613f1280ec860eca367cf.jpg"
+  },
+  {
+    "id": 12,
+    "title": "St Jerome",
+    "author": "Sir Anthony Van Dyck ",
+    "genre": "Baroque",
+    "museum":"Lichtenstein Museum, Vienna",
+    "description": "A Baroque painting of St. Jerome, the translator of the Bible into Latin, depicted in a contemplative pose, showcasing Van Dyck's elegant style and mastery of portraiture.",
+    "image": "https://i.pinimg.com/1200x/8e/41/71/8e41711048a4baa0502db8594e86f95f.jpg"
+  },
+    {
+    "id": 13,
+    "title": "Ecce Homo",
+    "author": "Guido Reni",
+    "genre": "Baroque",
+    "museum":"Pinacoteca Nazionale, Bologna",
+    "description": "A Baroque painting depicting Christ crowned with thorns, presenting a poignant and emotional portrayal of his suffering, showcasing Reni's delicate use of color and light.",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.MMzwE2Z2VS8wVFTejxLiyAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+    {
+    "id": 14,
+    "title": "The Musical Contest",
+    "author": "Jean-Honoré Fragonard",
+    "genre": "Rococo",
+    "museum":"Wallace Collection, London",
+    "description": "A playful Rococo painting depicting a musical contest between two young lovers, showcasing Fragonard's characteristic lightness and charm, with intricate details and vibrant colors.",
+    "image": "https://static.ticimax.cloud/6389/uploads/urunresimleri/buyuk/jean-honore-fragonard-the-musical-cont-c9-5f4.jpg"
+  },
+    {
+    "id": 15,
+    "title": "The Oath of the Horatii",
+    "author": "Jacques-Louis David",
+    "genre": "Neoclassicism",
+    "museum":"Musee de Louvre, Paris",
+    "description": "A seminal Neoclassical painting depicting the three Horatii brothers swearing an oath to defend Rome, showcasing David's use of classical themes, strong lines, and dramatic composition.",
+    "image": "https://i.pinimg.com/1200x/8b/b3/39/8bb339a536da493042e47386fe51a32c.jpg"
+  },
+    {
+    "id": 16,
+    "title": "Jupiter and Thetis",
+    "author": "Jean-Auguste-Dominique Ingres",
+    "genre": "Neoclassicism",
+    "museum":"Musee Granet, Aix-en-Provence",
+    "description": "A Neoclassical painting depicting the mythological scene of Jupiter and Thetis, showcasing Ingres' precise lines, idealized forms, and classical themes of mythology and heroism.",
+    "image": "https://i.pinimg.com/1200x/8a/27/78/8a2778b4248d4e334a7550ce7a15a670.jpg"
+  },
+    {
+    "id": 17,
+    "title": "Wanderer above the Sea of Fog",
+    "author": "Caspar David Friedrich",
+    "genre": "Romanticism",
+    "museum":"Kuntshalle Hamburg",
+    "description": "A quintessential Romantic painting depicting a solitary figure standing atop a rocky precipice, gazing out over a fog-covered landscape, symbolizing the sublime and the individual's relationship with nature.",
+    "image": "https://i.pinimg.com/736x/10/91/03/109103b92769c0fa9d4083c7a25cde32.jpg"
+  },
+    {
+    "id": 18,
+    "title": "Girl Seated in a Cemetery",
+    "author": "Eugene Delacroix",
+    "genre": "Romanticism",
+    "museum":"Musee de Louvre, Paris",
+    "description": "Delacroix portrays a young orphan girl seated in a graveyard, her tear-filled eyes cast skyward. The background is dim and desolate, with barren tombstones and a pale, brooding sky",
+    "image": "https://i.pinimg.com/1200x/26/70/0f/26700f0f14a527241ecc540d7bde266a.jpg"
+  },
+    {
+    "id": 19,
+    "title": "Jewish Wedding in Morocco",
+    "author": "Eugene Delacroix",
+    "genre": "Romanticism",
+    "museum":"Musee de Louvre, Paris",
+    "description": "A vibrant and exotic depiction of a Jewish wedding ceremony in Morocco, showcasing Delacroix's fascination with color, light, and cultural diversity.",
+    "image": "https://i.pinimg.com/1200x/d1/d6/8f/d1d68f1755875e06ac6f76270bc780b0.jpg"
+  },
+    {
+    "id": 20,
+    "title": "The Yard of a Madhouse",
+    "author": "Francisco Goya",
+    "genre": "Romanticism",
+    "museum":"Meadows Museum, Dallas",
+    "description": "A haunting and unsettling painting depicting the grim reality of a madhouse, showcasing Goya's dark and emotional style, reflecting the human condition and societal issues.",
+    "image": "https://i.pinimg.com/1200x/b1/8f/46/b18f4665018da2b532fba6e495752ab3.jpg"
+  },
+    {
+    "id": 21,
+    "title": "Witches Sabbath",
+    "author": "Francisco Goya",
+    "genre": "Romanticism",
+    "museum":"Metropolitan Museum of Art, New York",
+    "description": "A dark and eerie painting depicting a gathering of witches around a goat, symbolizing superstition and the macabre, showcasing Goya's exploration of the supernatural and human fears.",
+    "image": "https://i.pinimg.com/736x/e3/a0/55/e3a055425923869c7573dd8e961b4164.jpg"
+  },
+    {
+    "id": 22,
+    "title": "The Colossus",
+    "author": "Francisco Goya",
+    "genre": "Romanticism",
+    "museum":"Museo del Prado, Madrid",
+    "description": "A monumental and enigmatic painting depicting a giant figure looming over a desolate landscape, symbolizing chaos and destruction, showcasing Goya's dramatic use of scale and emotion.",
+    "image": "https://i.pinimg.com/1200x/a2/58/08/a25808e38a96de4d2e6c3665b2596740.jpg"
+  },
+    {
+    "id": 23,
+    "title": "The Nightmare",
+    "author": "Henry Fuseli",
+    "genre": "Romanticism",
+    "museum":"Institute of Art, Detroit",
+    "description":"The painting shows a woman in white, draped across a bed in deep sleep or unconsciousness. On her chest sits a grotesque incubus",
+    "image": "https://i.pinimg.com/1200x/d1/c9/57/d1c957a9aa5338b78487f8b2a0ee877c.jpg"
+  },
+    {
+    "id": 24,
+    "title": "Incantition",
+    "author": "Francisco Goya",
+    "genre": "Romanticism",
+    "museum":"Lazaro Galdiano Museum, Madrid",
+    "description": "The scene depicts a group of five old witches performing a spell at night by the pale light of the moon. The rising moon marks the beginning of the night. The last light of day falls on the horizon, where the outline of a village is visible.",
+    "image": "https://i.pinimg.com/736x/ba/bc/cf/babccf8bb2f3d1802b46d66e9b4ed928.jpg"
+  },
+    {
+    "id": 25,
+    "title":"The Raft of the Medusa", 
+    "author": "Theodore Gericault",
+    "genre": "Romanticism",
+    "museum":"Musee de Louvre, Paris",
+    "description": "A monumental Romantic painting depicting the aftermath of a contemporary French shipwreck, showcasing the struggle for survival and the human condition amidst despair and hope.",
+    "image": "https://i.pinimg.com/1200x/30/38/14/30381441186b7488b461fdbbd16493f2.jpg"
+  },
+    {
+    "id": 26,
+    "title": "Isaac Newton",
+    "author": "William Blake",
+    "genre": "Symbolic Romanticism",
+    "museum":"Tate Gallery, London",
+    "description": "A symbolic and allegorical painting depicting Sir Isaac Newton, the renowned scientist, as a figure of rationality and enlightenment, surrounded by mathematical symbols and celestial imagery, showcasing Blake's unique blend of art and philosophy.",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.VL_nhS-CvW5oTtRDuYLgEgHaFa?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+    {
+    "id": 27,
+    "title": "Nebuchadnezzar",
+    "author": "William Blake",
+    "genre": "Symbolic Romanticism",
+    "museum":"Tate Gallery, London",
+    "description": "A haunting and emotional painting depicting the biblical figure Nebuchadnezzar in a state of madness, reflecting Blake's exploration of the human psyche and the consequences of pride and tyranny.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.ehgd709b_sXoEz6gS6v8EgHaFT?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+    {
+    "id": 28,
+    "title": "The Great Red Dragon",
+    "author": "William Blake",
+    "genre": "Symbolic Romanticism",
+    "museum":"National Gallery, London",
+    "description": "A powerful and dramatic painting depicting the biblical figure of the Great Red Dragon, symbolizing evil and chaos, showcasing Blake's unique style and his fascination with mythology and religion.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/William_Blake_003.jpg/800px-William_Blake_003.jpg"
+  },
+    {
+    "id": 29,
+    "title": "Galatea",
+    "author": "Gustave Moreau",
+    "genre": "Symbolism",
+    "museum":"Thyssen-Bornemisza Museum, Madrid",
+    "description": "A dreamy and ethereal painting depicting the mythological figure Galatea, surrounded by marine creatures and a serene seascape, showcasing Moreau's intricate details and symbolic imagery.",
+    "image": "https://rlv.zcache.com/galatea_by_gustave_moreau_square_wall_clock-r64a749569ab94cbd83bf90682f8e0b45_fup1y_8byvr_704.jpg"
+  },
+    {
+    "id": 30,
+    "title": "Sadko and the Seven Wonders",
+    "author": "Ilya Yefimovich Repin",
+    "genre": "Peredvizhniki",
+    "museum":"Russian Museum, St. Petersburg",
+    "description": "A grand painting depicting the legendary figure Sadko, a merchant and adventurer, surrounded by the Seven Wonders of the World, showcasing Repin's detailed style and narrative depth.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ilya_Repin_-_Sadko_-_Google_Art_Project_levels_adjustment_2.jpg/500px-Ilya_Repin_-_Sadko_-_Google_Art_Project_levels_adjustment_2.jpg" 
+  },
+{
+  "id": 31,
+  "title": "A Knight at the Crossroads",
+  "author": "Victor Vasnetsov",
+  "genre": "Peredvizhniki",
+  "museum": "State Tretyakov Gallery, Moscow",
+  "description": "A captivating painting depicting a knight at a crossroads, symbolizing the choices and dilemmas faced in life, showcasing Vasnetsov's romantic and mythical style.",
+  "image":"https://th.bing.com/th/id/R.a66f2f376ebac51de9bbd6f02c7f51cf?rik=0vhU1ZbGPDme%2fQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mNlisWK-w9Q%2fT-n6xzAlZ_I%2fAAAAAAAAFjI%2fhaBnUCiP96s%2fs1600%2fVictor%2bVasnetsov%2b-%2bA%2bKnight%2bat%2bthe%2bCrossroads.JPG&ehk=WH0v8MOVHY3xHyVr0NHEKdgFvLxmDzdGkeaj4eUNmoM%3d&risl=&pid=ImgRaw&r=0"
+}
+    
+]

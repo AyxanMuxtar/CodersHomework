@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painting Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Painting Details</h1>
+  </header>
+
+  <div id="detailsContainer" class="details-container">
+    <!-- Painting details will be injected here -->
+  </div>
+
+  <button id="backBtn">⬅ Back to Explore</button>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("detailsContainer");
+      const backBtn = document.getElementById("backBtn");
+
+      // Get selected painting ID from localStorage
+      const selectedId = localStorage.getItem("selectedPainting");
+
+      fetch("paintings.json")
+        .then(res => res.json())
+        .then(data => {
+          const painting = data.find(p => p.id == selectedId);
+          if (!painting) {
+            container.innerHTML = "<p>Painting not found.</p>";
+            return;
+          }
+
+          container.innerHTML = `
+            <div class="details-card">
+              <img src="${painting.image}" alt="${painting.title}">
+              <h2>${painting.title}</h2>
+              <p><strong>Author:</strong> ${painting.author}</p>
+              <p><strong>Genre:</strong> ${painting.genre}</p>
+              <p><strong>Museum:</strong> ${painting.museum}</p>
+              <p><strong>Description:</strong> ${painting.description}</p>
+
+              <div class="add-section">
+                <textarea placeholder="Add your note..."></textarea>
+                <button id="addNoteBtn">Add Note</button>
+              </div>
+
+              <div class="notes" id="notes-${painting.id}">
+                <h4>Notes:</h4>
+              </div>
+            </div>
+          `;
+
+          // Load saved notes from localStorage
+          const savedNotes = JSON.parse(localStorage.getItem(`notes-${painting.id}`)) || [];
+          const notesDiv = document.getElementById(`notes-${painting.id}`);
+          savedNotes.forEach(note => {
+            const pNote = document.createElement("p");
+            pNote.textContent = note;
+            notesDiv.appendChild(pNote);
+          });
+
+          // Add note functionality
+          const addNoteBtn = document.getElementById("addNoteBtn");
+          addNoteBtn.addEventListener("click", () => {
+            const textarea = addNoteBtn.previousElementSibling;
+            const text = textarea.value.trim();
+            if (!text) return;
+
+            savedNotes.push(text);
+            localStorage.setItem(`notes-${painting.id}`, JSON.stringify(savedNotes));
+
+            const p = document.createElement("p");
+            p.textContent = text;
+            notesDiv.appendChild(p);
+
+            textarea.value = "";
+          });
+        })
+        .catch(err => {
+          container.innerHTML = "<p>Error loading painting details.</p>";
+          console.error(err);
+        });
+
+      backBtn.addEventListener("click", () => {
+        window.location.href = "index.html";
+      });
+    });
+  </script>
+</body>
+</html>
