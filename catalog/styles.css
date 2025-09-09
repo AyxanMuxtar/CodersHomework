@@ -1,0 +1,202 @@
+:root {
+  --gap: 16px;
+  --card-bg: #fff;
+  --muted: #666;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  background: #f5f5f7;
+  color: #111;
+}
+
+/* ----- HEADER ----- */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.topnav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+/* ----- SEARCH ----- */
+.search-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 18px;
+  background: transparent;
+}
+
+.search-row input[type=search] {
+  width: 60%;
+  max-width: 700px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.search-row button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 0;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ----- MAIN ----- */
+main {
+  padding: 20px;
+}
+
+/* Grid layout */
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--gap);
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(20, 20, 20, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image wrapper with overlay */
+.img-wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.img-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effect */
+.img-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+.img-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.card .meta {
+  padding: 10px;
+}
+
+.card .title {
+  font-weight: 600;
+  margin: 0 0 6px 0;
+}
+
+.card .specs {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ----- PAGINATION ----- */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 22px 0;
+}
+
+.page-btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.page-btn.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+/* ----- FOOTER ----- */
+footer {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 28px 20px;
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer-col h3 {
+  margin: 0 0 8px 0;
+}
+
+.footer-col p {
+  margin: 4px 0;
+}
+
+/* ----- RESPONSIVE ----- */
+@media (max-width: 599px) {
+  .search-row input {
+    width: 80%;
+  }
+  .topnav {
+    display: none;
+  }
+}

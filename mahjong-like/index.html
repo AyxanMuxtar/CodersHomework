@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahjong‑Like Match Pairs</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23096'/><text x='50%' y='52%' text-anchor='middle' font-family='Arial' font-size='34' fill='white'>🀄</text></svg>">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">🀄</span>
+        <h1>Mahjong‑Like</h1>
+      </div>
+      <div class="controls">
+        <button id="newGameBtn" class="btn primary">New Game</button>
+        <button id="undoBtn" class="btn">Undo</button>
+        <button id="hintBtn" class="btn">Hint</button>
+        <button id="shuffleBtn" class="btn">Shuffle</button>
+      </div>
+      <div class="stats">
+        <div><strong>Time:</strong> <span id="time">00:00</span></div>
+        <div><strong>Moves:</strong> <span id="moves">0</span></div>
+        <div><strong>Remaining:</strong> <span id="remaining">0</span></div>
+      </div>
+    </header>
+
+    <main>
+      <div id="board" class="board" aria-label="Mahjong-like board" role="grid"></div>
+    </main>
+
+    <footer class="foot">
+      <p>Match identical free tiles. A tile is <em>free</em> if it has no tile on its left or right side.</p>
+      <p>Built with vanilla HTML/CSS/JS.</p>
+    </footer>
+  </div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-body">
+      <h2 id="modalTitle">You win! 🎉</h2>
+      <p id="modalMsg"></p>
+      <div class="modal-actions">
+        <button id="closeModalBtn" class="btn">Close</button>
+        <button id="playAgainBtn" class="btn primary">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <template id="tileTemplate">
+    <button class="tile" role="gridcell" aria-live="polite"></button>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
